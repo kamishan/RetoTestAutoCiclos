@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Yo como usuario," skipped="0" tests="1" time="27.25" timestamp="2023-06-30 10:45:23"><testcase name="Registro exitoso en la página Utest"><failure message="No se ingreso correctamente a la página" type="java.lang.AssertionError">No se ingreso correctamente a la página</failure><system-err>No se ingreso correctamente a la página&#13;
+registerUtestSteps.RegisterUtestSteps.validateEnterPage(RegisterUtestSteps.java:26)&#13;
+registerStepDefinitions.RegisterUtestDefinition.completoElPrimerFormulario(RegisterUtestDefinition.java:30)&#13;
+✽.completo el primer formulario:(src/test/resources/features/registr_utest.feature:8)&#13;
+</system-err></testcase></testsuite>
