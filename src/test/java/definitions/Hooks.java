@@ -13,7 +13,6 @@ public class Hooks {
     public void initDriver(){
         System.setProperty("webdriver.chrome.driver", "C:/AMBIENTES/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--incognito");
         driver= new ChromeDriver(options);
         driver.manage().window().maximize();
     }

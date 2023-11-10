@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-07-2023 02:09</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-11-2023 00:52</span>
     <br style="clear:left"/>
 </div>
 
@@ -184,7 +184,7 @@ para validar su funcionalidad
                         <td valign="top" align="right">
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="44151713003bd1c00741b1ef29009d7ce967e12992e307c5545f31940e5f74f0.html">Resolver Ciclo2
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="014273838953f7485e5f4644c032c15dc433c4b7232550747560b8d5b6c3b1f6.html">Resolver Ciclos
                                     (tag)</a>
                                 </span>
                             </p>
@@ -196,9 +196,9 @@ para validar su funcionalidad
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">completar formulario login Evalart
+                                <span class="error-color">completar formulario login Evalart
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -214,57 +214,58 @@ para validar su funcionalidad
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Given realizo login con &lt;Usuario&gt;, &lt;Contrasena&gt;<br>When completo los ejecicios con &lt;Modulo1&gt; y &lt;Dias1&gt;<br>And avanzo al siguiente ciclo<br>And completo los ejecicios con &lt;Modulo2&gt; y &lt;Dias2&gt;<br>And avanzo al siguiente ciclo<br>And completo los ejecicios con &lt;Modulo3&gt; y &lt;Dias3&gt;<br>And avanzo al siguiente ciclo<br>And completo los ejecicios con &lt;Modulo4&gt; y &lt;Dias4&gt;<br>And avanzo al siguiente ciclo<br>And completo los ejecicios con &lt;Modulo5&gt; y &lt;Dias5&gt;<br>And avanzo al siguiente ciclo<br>And completo los ejecicios con &lt;Modulo6&gt; y &lt;Dias6&gt;<br>And avanzo al siguiente ciclo<br>And completo los ejecicios con &lt;Modulo7&gt; y &lt;Dias7&gt;<br>And avanzo al siguiente ciclo<br>And completo los ejecicios con &lt;Modulo8&gt; y &lt;Dias8&gt;<br>And avanzo al siguiente ciclo<br>And completo los ejecicios con &lt;Modulo9&gt; y &lt;Dias9&gt;<br>And avanzo al siguiente ciclo<br>And completo los ejecicios con &lt;Modulo10&gt; y &lt;Dias10&gt;<br>And avanzo al siguiente ciclo<br>Then se valida la ejecución de los ciclos de ejercicio exitosamente</div>
+        <div class="scenario">Given realizo login con &lt;Usuario&gt;, &lt;Contrasena&gt;<br>When completo los ejercicios<br>Then avanzo al siguiente ciclo<br>Then se valida la ejecución de los ciclos de ejercicio exitosamente</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: Timed out after 2 seconds. Element not found</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>pages.EjerciciosCiclosPage.clickButtonEnviar(EjerciciosCiclosPage.java:74)<br />steps.EjerciciosCiclosSteps.AvanzarSiguienteCiclo(EjerciciosCiclosSteps.java:87)<br />definitions.EjerciciosCiclosDefinitions.avanzoAlSiguienteCiclo(EjerciciosCiclosDefinitions.java:27)<br />✽.avanzo al siguiente ciclo(src/test/resources/features/retoAutomatizacion.feature:9)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5830843518478204296.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="0c7725fbc66dc0891c76c2f3507f90d6251be0a97e55bdf7b9febea96afe3175.png" title=" Example: {Usuario=638621, Contrasena=10df2f32286b7120MS00LTEyNjgzNg==30e0c83e6c29f1c3, Modulo1=5, Dias1=-22, Modulo2=8, Dias2=34, Modulo3=3, Dias3=-102, Modulo4=5, Dias4=-111, Modulo5=2, Dias5=-52, Modulo6=3, Dias6=-49, Modulo7=7, Dias7=99, Modulo8=4, Dias8=-60, Modulo9=8, Dias9=-27, Modulo10=5, Dias10=67}" width="1366"/>
-                <img src="0c7725fbc66dc0891c76c2f3507f90d6251be0a97e55bdf7b9febea96afe3175.png" title=" Given realizo login con 638621, 10df2f32286b7120MS00LTEyNjgzNg==30e0c83e6c29f1c3" width="1366"/>
-                <img src="0c7725fbc66dc0891c76c2f3507f90d6251be0a97e55bdf7b9febea96afe3175.png" title=" When completo los ejecicios con 5 y -22" width="1366"/>
-                <img src="302f97a50dc8d6db6c92d71ebf1d9a2eef57c00a3f478b99e3a5d2c8aa5606c2.png" title=" When completo los ejecicios con 5 y -22 (completed)" width="1366"/>
-                <img src="302f97a50dc8d6db6c92d71ebf1d9a2eef57c00a3f478b99e3a5d2c8aa5606c2.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="d6516be427fa0caf9014b577360902d068010f4e7f61cb37a1bc99827c10645b.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="d6516be427fa0caf9014b577360902d068010f4e7f61cb37a1bc99827c10645b.png" title=" And completo los ejecicios con 8 y 34" width="1366"/>
-                <img src="cea3396500d38217eab03e441f21e06f1fead1541e7204e331bc70377da59900.png" title=" And completo los ejecicios con 8 y 34 (completed)" width="1366"/>
-                <img src="cea3396500d38217eab03e441f21e06f1fead1541e7204e331bc70377da59900.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="47e8a5e5bfc094e413daf796310a455626fe067742e6782ead4fc4b411069504.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="47e8a5e5bfc094e413daf796310a455626fe067742e6782ead4fc4b411069504.png" title=" And completo los ejecicios con 3 y -102" width="1366"/>
-                <img src="1dc1a809badb47fbf6ae7ef82d0a9865859dd6d34b1f9423205050cc6c743a83.png" title=" And completo los ejecicios con 3 y -102 (completed)" width="1366"/>
-                <img src="1dc1a809badb47fbf6ae7ef82d0a9865859dd6d34b1f9423205050cc6c743a83.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="9e055050b8e3e092c42d974236901979934ec8e08c4f258e68a3fd2f0a90ae3d.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="9e055050b8e3e092c42d974236901979934ec8e08c4f258e68a3fd2f0a90ae3d.png" title=" And completo los ejecicios con 5 y -111" width="1366"/>
-                <img src="4222e9e198dcab44f7950d07c1f805db8dde3768dcd28ede84a637bba28ee1ed.png" title=" And completo los ejecicios con 5 y -111 (completed)" width="1366"/>
-                <img src="4222e9e198dcab44f7950d07c1f805db8dde3768dcd28ede84a637bba28ee1ed.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="d13634cb4a1d9947307e0d96a16b01e28d2e56a0597e3f006c3b4195df2a85a3.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="d13634cb4a1d9947307e0d96a16b01e28d2e56a0597e3f006c3b4195df2a85a3.png" title=" And completo los ejecicios con 2 y -52" width="1366"/>
-                <img src="7356ad94c3755b534fe14f39dc2bf27af0b6c77405d387c4ad3e84ecf31a437a.png" title=" And completo los ejecicios con 2 y -52 (completed)" width="1366"/>
-                <img src="7356ad94c3755b534fe14f39dc2bf27af0b6c77405d387c4ad3e84ecf31a437a.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="be4c24a922f49e076fec375f97231c79ffc0164e172fbe40a80e9a27abf8eea7.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="be4c24a922f49e076fec375f97231c79ffc0164e172fbe40a80e9a27abf8eea7.png" title=" And completo los ejecicios con 3 y -49" width="1366"/>
-                <img src="be923c6f022934163094347a1a69a9ff6d0582b18a42271aac034668b36f587f.png" title=" And completo los ejecicios con 3 y -49 (completed)" width="1366"/>
-                <img src="be923c6f022934163094347a1a69a9ff6d0582b18a42271aac034668b36f587f.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="b5eeea1a0943a96119918f401cd8c08243bc6c7f4263e8e211eb9742fad0eb2b.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="b5eeea1a0943a96119918f401cd8c08243bc6c7f4263e8e211eb9742fad0eb2b.png" title=" And completo los ejecicios con 7 y 99" width="1366"/>
-                <img src="7d7e4b64ad85714bf4996c665eb38c3616a18bd2c20f957ce583e9bed1eb57d6.png" title=" And completo los ejecicios con 7 y 99 (completed)" width="1366"/>
-                <img src="7d7e4b64ad85714bf4996c665eb38c3616a18bd2c20f957ce583e9bed1eb57d6.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="36f74edfa2037fe5ee0fb833fc9212bba089f475476f8f7bd7cc168843ace9ee.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="36f74edfa2037fe5ee0fb833fc9212bba089f475476f8f7bd7cc168843ace9ee.png" title=" And completo los ejecicios con 4 y -60" width="1366"/>
-                <img src="5006403a620a4bea0bbca1b362e33899a98bc33fc9f99ab6bac3f6202fc1530e.png" title=" And completo los ejecicios con 4 y -60 (completed)" width="1366"/>
-                <img src="5006403a620a4bea0bbca1b362e33899a98bc33fc9f99ab6bac3f6202fc1530e.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="dbc6d8f33b84ddcb03eab108c0c9779502549ea67aebfa80134c66de36682027.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="dbc6d8f33b84ddcb03eab108c0c9779502549ea67aebfa80134c66de36682027.png" title=" And completo los ejecicios con 8 y -27" width="1366"/>
-                <img src="56e08a9ec0fd685cb58f94e8e910895d535797e2a9816b53b97842869c645af8.png" title=" And completo los ejecicios con 8 y -27 (completed)" width="1366"/>
-                <img src="56e08a9ec0fd685cb58f94e8e910895d535797e2a9816b53b97842869c645af8.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="10d980eaa3ad82884f25a3c272b900f2603370c16a28484bbac40e287e5b6f19.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="10d980eaa3ad82884f25a3c272b900f2603370c16a28484bbac40e287e5b6f19.png" title=" And completo los ejecicios con 5 y 67" width="1366"/>
-                <img src="fb0840d2b4cddd2d300bcc65bc720931a8b945f5832fc9645ed957143ccc948e.png" title=" And completo los ejecicios con 5 y 67 (completed)" width="1366"/>
-                <img src="fb0840d2b4cddd2d300bcc65bc720931a8b945f5832fc9645ed957143ccc948e.png" title=" And avanzo al siguiente ciclo" width="1366"/>
-                <img src="9b887c2e61efa8fd69b7e5617c1781f90c4a485a1d2ccbcf064d3894a1abb9fe.png" title=" And avanzo al siguiente ciclo (completed)" width="1366"/>
-                <img src="9b887c2e61efa8fd69b7e5617c1781f90c4a485a1d2ccbcf064d3894a1abb9fe.png" title=" Then se valida la ejecuci&oacute;n de los ciclos de ejercicio exitosamente" width="1366"/>
-                <img src="9b887c2e61efa8fd69b7e5617c1781f90c4a485a1d2ccbcf064d3894a1abb9fe.png" title=" Then se valida la ejecuci&oacute;n de los ciclos de ejercicio exitosamente (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="56a822e1b069687cdb6580f2483567648f18c0d5c1735620f2036132bbee5694.png" title=" Example: {Usuario=731981, Contrasena=10df2f32286b7120Mi00LTE4OTEzNw==30e0c83e6c29f1c3}" width="1366"/>
+                <img src="56a822e1b069687cdb6580f2483567648f18c0d5c1735620f2036132bbee5694.png" title=" Given realizo login con 731981, 10df2f32286b7120Mi00LTE4OTEzNw==30e0c83e6c29f1c3" width="1366"/>
+                <img src="56a822e1b069687cdb6580f2483567648f18c0d5c1735620f2036132bbee5694.png" title=" When completo los ejercicios" width="1366"/>
+                <img src="4ddfb40a6b3ee138cc10ae546d2e84b02def3cf1e3ea746d281dcc2f617f31b5.png" title=" When completo los ejercicios (completed)" width="1366"/>
+                <img src="4ddfb40a6b3ee138cc10ae546d2e84b02def3cf1e3ea746d281dcc2f617f31b5.png" title=" Then avanzo al siguiente ciclo" width="1366"/>
+                <img src="4ddfb40a6b3ee138cc10ae546d2e84b02def3cf1e3ea746d281dcc2f617f31b5.png" title=" Then avanzo al siguiente ciclo (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

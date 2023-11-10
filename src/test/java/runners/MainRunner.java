@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "definitions",
-        tags = "@resolverCiclo2"
+        tags = "@resolverCiclos"
 )
 public class MainRunner {
 }
